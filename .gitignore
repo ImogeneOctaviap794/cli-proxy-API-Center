@@ -1,0 +1,7 @@
+node_modules/
+dist/
+data/
+backend/cpa-center
+backend/cpa-center-linux
+*.db
+.DS_Store
