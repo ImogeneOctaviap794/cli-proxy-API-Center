@@ -100,9 +100,11 @@ func main() {
 	// CodeX
 	r.GET("/api/codex/accounts", handleGetCodexAccounts)
 	r.POST("/api/codex/check", handleCodexCheck)
+	r.POST("/api/codex/check-stream", handleCodexCheckStream)
 	r.POST("/api/codex/quota", handleCodexQuota)
 	r.POST("/api/codex/delete", handleCodexDelete)
 	r.POST("/api/codex/delete-by-auth", handleCodexDeleteByAuth)
+	r.POST("/api/codex/delete-stream", handleCodexDeleteStream)
 
 	// OpenCode
 	r.GET("/api/opencode/config", handleGetOpenCodeConfig)
